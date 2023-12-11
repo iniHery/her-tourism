@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import Navbar from "./Navbar/page";
+import Footer from "./Footer/page";
 
 export default function Home() {
   return (
-    <div className="max-h-full bg-white pb-20 ">
+    <div className="max-h-full bg-white">
       <div className="flex justify-center w-full fixed">
-        <div className="w-full md:w-full lg:mx-auto max-w-screen-xl p-4 ">
+        <div className="w-full md:w-full lg:mx-auto max-w-screen-xl p-4 bg-transparent">
           <div>
             <Navbar />
           </div>
@@ -349,6 +350,14 @@ export default function Home() {
         </div>
       </Link>
       {/* Paket Tour End */}
+
+      {/* Footer Start */}
+
+      <div className="pt-20">
+        <Footer />
+      </div>
+
+      {/* Footer End */}
     </div>
   );
 }
