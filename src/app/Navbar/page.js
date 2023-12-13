@@ -52,8 +52,8 @@ const Navbar = () => {
 
   return (
     <div
-      className={`text-white fixed top-0 left-0 right-0 transition-all duration-300 py-2 opacity-85 ${
-        isScrolled ? "bg-black" : "bg-transparent"
+      className={`text-white fixed top-0 left-0 right-0 transition-all duration-300 opacity-85 ${
+        isScrolled ? "bg-[#171717]" : "bg-transparent"
       }`}
     >
       <div className="flex justify-between items-center w-full md:w-full lg:mx-auto max-w-screen-xl p-4">
@@ -68,7 +68,7 @@ const Navbar = () => {
           <div>Blog</div>
         </div>
         <div>
-          <button className="bg-white px-8 py-2 text-black rounded-lg">
+          <button className="bg-[#008cff] px-8 py-2 text-white rounded-xl">
             Contact Us
           </button>
         </div>
