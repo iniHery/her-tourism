@@ -53,7 +53,7 @@ const Navbar = () => {
   return (
     <div
       className={`text-white fixed top-0 left-0 right-0 transition-all duration-300 opacity-85 ${
-        isScrolled ? "bg-[#171717]" : "bg-transparent"
+        isScrolled ? "bg-[#171717] shadow-lg" : "bg-transparent"
       }`}
     >
       <div className="flex justify-between items-center w-full md:w-full lg:mx-auto max-w-screen-xl p-4">
