@@ -59,7 +59,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full md:w-full lg:mx-auto max-w-screen-xl p-4">
         <div className="text-xl">
           <Link href="/">
-            <span className="font-bold">Her</span>Tourism.
+            <span className="font-bold">Bali Jadma </span>Tour.
           </Link>
         </div>
         <div className="flex justify-between items-center gap-[40px] font-light">

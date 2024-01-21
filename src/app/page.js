@@ -163,7 +163,7 @@ export default function Home() {
       {/* Paket Tour End */}
 
       {/* Testimoni  Start */}
-      <div className="flex justify-center items-center pt-10">
+      <div className="flex justify-center mt-32 items-center bg-[#171717]">
         <Testimoni />
       </div>
       {/* Testimoni End */}
