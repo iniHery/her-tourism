@@ -89,39 +89,39 @@ export default function Home() {
             <div className="flex justify-center">
               <div className="pt-10">
                 <div className="w-full flex justify-center">
-                  <div className="text-center text-5xl pb-[20%] md:pb-[6%] font-bold w-4/6">
+                  <div className="text-center text-5xl pb-[20%] md:pb-[6%] font-bold w-full md:w-4/6">
                     Layanan yang kami sediakan untuk anda.
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-4 sm:gap-6 justify-center ">
-                  <div className="w-full h-[38vh] bg-[#aaffa5] mx-auto shadow-md border grid grid-cols grid-rows-2 p-8 rounded-3xl mb-8 duration-300 transition-all">
+                  <div className="w-full h-[50vh] bg-[#aaffa5] mx-auto shadow-md border grid grid-cols grid-rows-2 p-8 rounded-3xl mb-8 duration-300 transition-all">
                     <div className="pb-8 flex items-center">
                       <Image src="/hand.png" width={100} height={100} />
                     </div>
                     <div>
                       <h1 className="font-bold text-2xl pb-4">Local Agent</h1>
-                      <p className="text-md font-light">
+                      <p className="text-xl md:text-md font-light">
                         Kami adalah Local Agent Bali, dapatkan penawaran harga
                         terbaik
                       </p>
                     </div>
                   </div>
 
-                  <div className="w-full h-[38vh] bg-[#a5e2ff] mx-auto shadow-md border grid grid-cols grid-rows-2 p-8 rounded-3xl mb-8 duration-300 transition-all">
+                  <div className="w-full h-[50vh] bg-[#a5e2ff] mx-auto shadow-md border grid grid-cols grid-rows-2 p-8 rounded-3xl mb-8 duration-300 transition-all">
                     <div className="pb-8 flex items-center">
                       <Image src="/gps.png" width={80} height={80} />
                     </div>
                     <div>
                       <h1 className="font-bold text-2xl pb-4">Paket Tour</h1>
-                      <p className="text-md font-light">
+                      <p className="text-xl md:text-md font-light">
                         One Stop Shopping, kami juga melayani pemesanan Paket
                         Tour Bali
                       </p>
                     </div>
                   </div>
 
-                  <div className="w-full h-[38vh] bg-[#ffa5a5] mx-auto shadow-md border grid grid-cols grid-rows-2 p-8 rounded-3xl mb-8 duration-300 transition-all">
+                  <div className="w-full h-[50vh] bg-[#ffa5a5] mx-auto shadow-md border grid grid-cols grid-rows-2 p-8 rounded-3xl mb-8 duration-300 transition-all">
                     <div className="pb-8 flex items-center">
                       <Image src="/fast.png" width={100} height={100} />
                     </div>
@@ -129,13 +129,13 @@ export default function Home() {
                       <h1 className="font-bold text-2xl pb-4">
                         Pelayanan Cepat
                       </h1>
-                      <p className="text-md font-light">
+                      <p className="text-xl md:text-md font-light">
                         Dapatkan pelayanan cepat dari Team Kami
                       </p>
                     </div>
                   </div>
 
-                  <div className="w-full h-[38vh] bg-[#ffe2a5] mx-auto shadow-md border grid grid-cols grid-rows-2 p-8 rounded-3xl mb-8 duration-300 transition-all">
+                  <div className="w-full h-[50vh] bg-[#ffe2a5] mx-auto shadow-md border grid grid-cols grid-rows-2 p-8 rounded-3xl mb-8 duration-300 transition-all">
                     <div className="pb-8 flex items-center">
                       <Image src="/wisata.png" width={96} height={96} />
                     </div>
@@ -143,7 +143,7 @@ export default function Home() {
                       <h1 className="font-bold text-2xl pb-4">
                         Wisata Kekinian
                       </h1>
-                      <p className="text-md font-light">
+                      <p className="text-xl md:text-md font-light">
                         Dapatkan penawaran pergi ke Destinasi Wisata Kekinian
                       </p>
                     </div>

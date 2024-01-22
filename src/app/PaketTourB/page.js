@@ -22,7 +22,7 @@ const PaketTourB = () => {
             <div></div>
           </div>
           {/* Foto Start */}
-          <div className="w-full ">
+          <div className="w-full">
             <div className="grid grid-cols-2 gap-2">
               <div>
                 <div className="bg-cover bg-center h-[60vh] w-full max-w-full rounded-xl bg-[url('https://images.unsplash.com/photo-1558005530-a7958896ec60?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] "></div>
@@ -42,7 +42,7 @@ const PaketTourB = () => {
           </div>
           {/* Foto End */}
           {/* Description Start */}
-          <div className="py-8 grid grid-cols-2 gap-10">
+          <div className="py-8 grid grid-cols-1 md:grid-cols-2 gap-10">
             <div className="w-full">
               <div className="border-b border-gray-300 pb-6">
                 <div className="py-2">
@@ -105,7 +105,7 @@ const PaketTourB = () => {
               </div>
               {/*  */}
               <div className="border-b border-gray-300">
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
                   <div className="grid py-6">
                     <div className="font-semibold pb-2">Hotel pick up </div>
                     {/*  */}
@@ -176,8 +176,8 @@ const PaketTourB = () => {
               </div>
             </div>
             {/*  */}
-            <div className="flex justify-end p-4 rounded-xl">
-              <div className="w-2/3 lg:h-[60vh] sm:h-[68vh]">
+            <div className="flex justify-center md:justify-end p-4 rounded-xl">
+              <div className="w-full md:w-2/3 lg:h-[60vh] sm:h-[68vh]">
                 <div className="pb-6">
                   <div className="font-semibold text-2xl pb-2">
                     Reserve your spot

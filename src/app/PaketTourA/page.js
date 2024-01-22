@@ -42,7 +42,7 @@ const PaketTourA = () => {
           </div>
           {/* Foto End */}
           {/* Description Start */}
-          <div className="py-8 grid grid-cols-2 gap-10">
+          <div className="py-8 grid grid-cols-1 md:grid-cols-2 md:gap-10">
             <div className="w-full">
               <div className="border-b border-gray-300 pb-6">
                 <div className="py-2">
@@ -96,7 +96,7 @@ const PaketTourA = () => {
               </div>
               {/*  */}
               <div className="border-b border-gray-300">
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
                   <div className="grid py-6">
                     <div className="font-semibold pb-2">Hotel pick up </div>
                     {/*  */}
@@ -105,7 +105,7 @@ const PaketTourA = () => {
                         <FaClock />
                       </div>
                       <div className=" pl-4 text-xs font-light flex justify-start">
-                        08:00 am : Nusa dua, Jimbaran
+                        08:00 AM : Nusa dua, Jimbaran
                       </div>
                     </div>
                     {/*  */}
@@ -114,7 +114,7 @@ const PaketTourA = () => {
                         <FaClock />
                       </div>
                       <div className=" pl-4 text-xs font-light flex justify-start">
-                        08:30 am : Seminyak,Kuta,Canggu,Sanur,Ubud
+                        08:30 AM : Seminyak, Kuta, Canggu, Sanur, Ubud
                       </div>
                     </div>
                     {/*  */}
@@ -167,8 +167,8 @@ const PaketTourA = () => {
               </div>
             </div>
             {/*  */}
-            <div className="flex justify-end p-4 rounded-xl">
-              <div className="w-2/3 lg:h-[60vh] sm:h-[68vh]">
+            <div className="flex justify-center md:justify-end p-4 rounded-xl">
+              <div className="w-full md:w-2/3 lg:h-[60vh] sm:h-[68vh]">
                 <div className="pb-6">
                   <div className="font-semibold text-2xl pb-2">
                     Reserve your spot
@@ -210,24 +210,6 @@ const PaketTourA = () => {
                         </div>
                       </div>
                     </div>
-                    {/* <div className="flex justify-start">
-                      <div className="flex justify-center gap-2 items-center w-full text-[#ffab56]">
-                        <div className="flex justify-between items-center gap-1">
-                          <img
-                            className="h-4 w-4"
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAzxJREFUaEPtWU160zAQfWPae7Qs4AywacIGDhCbsqHNDk5Reop2l5YNxc4BYEPCBs4AC5p7JPXwWU4aW5KtkWMD4YuWjTyaN+/Nj1TCli/acv+xA/C3GeyMAU4iLoKjMO7krE6MZo7vAAi1uWOgGChOjntA2gP4CKBeOYg8BQUzpOlXipIrYYCd2zZmgD8cH2AvPQVw5jxttYEwA2iKOZ3Tq5uZ+DvLxo0AcBK983JcdyADwrimMM7sNFqNAORRvxuZMmnkA5ABmQf9Jmx4A1hK5tbq6jKiQDDFArPMIbU/W3s4APEJwD0w8r+VGkUzEF4AlDP76cRwwEMK9zlDOLHa8WTCD0ASTmzVhcKk7yueyuQnzGgQH0rtiQFYE5boigYfh9LD9H01FexcmtgiAHbd89QWeY7DJwjoNYBnYDxUThN+AfiClN9TlHwv9Q4lSz4Dc1aK8+WR1DIA45ej0gHZGZbhjJPoAsAbByOXFMZvTRBabgnZFQKIbksJxzzUuynH0ScQnovkxPhMUfyiBCIOT0E0KrIgyQUnANYNW6IvjLyOrcSEvbcEfQpvpnVBcQPQ5aNRqzRP9E0UeSOL+WkxJyyFwpnMAgD18uFxdAF26t6Oj3BJg3U+LIfByXqzvVCU+59mWr+IGCcvgsNiy+dx9AOMR40YIPykQfx49W1tl18VKK14GAy4AOjVh5NorgaFZmtBYbz/3wDIgPgG0JsB/OsSMgqFMf+US1urSWz0Aveo4q5C+qWlyzLqKNm2NBMAUPfcdWmzTIttNDKl/7G74+sg3ADyO2/5AvMnRomKecsbQB4ZbZirmNmFTBjDnDX6rQ5zNhYqDvAdp/PSabkoadWuqs04JXTfZCxDHQDnrOLqbwa7+Qdiu3IAlS8R7nmlCoQ18vCzJwagqG7hUr/stvb3JM/7cGbLC0AtiNxa/uLGdG19VlHPjhUveOplIxi65v9GVcjozlVMuARf+bufbIpmvBnQJke/N1E7AHHCNurErqA2ftzd8E105VdjBqyyenDXQxAcgdMD4wGs8Ozoq/O6ILYGwJxid/8jc6lX/b5joLrLbrmERPy3sKkzCbXgm8jEDoAoTB1u+g2KvAJPsHjpWAAAAABJRU5ErkJggg=="
-                          />
-                          <div className="text-sm">Bali</div>
-                        </div>
-                        <div className="flex justify-between items-center gap-1">
-                          <img
-                            className="h-4 w-4"
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAxNJREFUaEPtmVtW20AMhqWBrqNhJSR7wCl9gqyEdiVJn0pj9pDsBHcdJBZnxjiNR5qrB3Jyil990yfpH2k0CGd+4ZnbD58Ap45gsQjQ79sJXLb3gPgVqJ0A4gQIJoDQGEiiBlA1QPQXQG2xetyWgB8F8M9ouDPGplwajOAX7NQKvz92kBlXNgDV8x8A8JDxz+ErbyBYrfX3kq9kAKpvpwDtJvlPoRcyQZIAgl7v0wLUFnbQ6NQwaaavS5gA7bUm7gBw6uH5mRKNaACqq4344wzPBbWDuMKbP4tQ0PT9KACn8QBJ3rINOoBIWoqECAKIaWO8rhallkID8qXdCCtZ0EFeAFGwCA3erK9iwpvyjBOCaIHzeuX6lh/gaf488Ir2/IuajVm3fVAiRMBhTgB5xVGz2LShek7HxmK1DqarKdhdRX8egHr04AMYGACJgs0FMBDrSrckywOEJ/IiAD19WwLRfY4H+3dGAciiFgXtALByPyAkKa/HALiiIC0eMkBm/h6DjAaQtABcgwyA5198VSwJYKLAqz9LIw5g539G+nQ/z1uFBk6wxQy0xaqeDbTJyjujjl86y0fA7nxjAOzitVNXOYXLjkCoKkt1gtUEoajxFCoQeimF/kuAGC0JIrZqwPmlkL1xyRNxKGVi7vNuOErErI0I9uQxxuQ8E1OTwoVMWHtzjMl5hxUyoSZxALuEv9MGJgaILcWCHh29kKWDzGocY6TrGZY+jkxwNXPDodUJokBsNyj3ZDJA4q5ojKcdrTif+jmWc/eOTNoVFZxEOFNHnvw5V0I3gLQr+ohNvb0f1sMrz37aP5Vg7awZhb3LZKJr3PZLPv3zF9LgpMA52Co4XvEMjINFNAjw1lBxUWXMRKMFax7kbYP0fhxAf/oizjC7g4qUibJ3JppgvH40CqAn947XTUSoO3XBi0Ycr0M7BaDrk4zXDxBa2Aofko+UQsUic2CcFIEDhC+lQoba90dqKQuAgwTTgmONNLz/4CiAY6uMMC/2U1DqOnjMOvJk8vi/xQBSM6fU858ApTyZ+52zj8ArHe8iT05p8cMAAAAASUVORK5CYII="
-                          />
-                          <div className="text-sm">1 Jam</div>
-                        </div>
-                      </div>
-                    </div> */}
 
                     <div className="pt-6">
                       <button className="bg-[#FF9900] duration-300 transition-all px-8 py-3 w-full rounded-xl font-semibold text-[#171717] hover:opacity-75">

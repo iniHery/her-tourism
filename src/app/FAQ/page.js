@@ -1,10 +1,15 @@
 const FAQ = () => {
   return (
-    <div className="w-full md:w-full lg:mx-auto max-w-screen-xl p-4 bg-transparent h-[60%] mt-[10%] mb-[10%]">
-      <div className="h-[60vh] flex justify-center items-start">
-        <div className=" w-2/3">
+    <div className="w-full md:w-full lg:mx-auto max-w-screen-xl p-4 bg-transparent h-screen md:h-[60%] mt-[10%] mb-[10%]">
+      <div className="md:h-[60vh] h-full flex justify-center items-start">
+        <div className="w-full md:w-2/3">
           <div className="flow-root">
             <div className="-my-8 divide-y divide-gray-100">
+              <div className="w-full flex justify-center">
+                <div className="text-center text-5xl pb-[20%] md:pb-[6%] font-bold w-4/6">
+                  FAQ
+                </div>
+              </div>
               <details
                 className="group py-8 [&_summary::-webkit-details-marker]:hidden"
                 open

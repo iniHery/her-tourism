@@ -42,7 +42,7 @@ const PaketTourC = () => {
           </div>
           {/* Foto End */}
           {/* Description Start */}
-          <div className="py-8 grid grid-cols-2 gap-10">
+          <div className="py-8 grid grid-cols-1 md:grid-cols-2 gap-10">
             <div className="w-full">
               <div className="border-b border-gray-300 pb-6">
                 <div className="py-2">
@@ -105,7 +105,7 @@ const PaketTourC = () => {
               </div>
               {/*  */}
               <div className="border-b border-gray-300">
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
                   <div className="grid py-6">
                     <div className="font-semibold pb-2">Hotel pick up </div>
                     {/*  */}
@@ -176,8 +176,8 @@ const PaketTourC = () => {
               </div>
             </div>
             {/*  */}
-            <div className="flex justify-end p-4 rounded-xl">
-              <div className="w-2/3 lg:h-[60vh] sm:h-[68vh]">
+            <div className="flex justify-center md:justify-end p-4 rounded-xl">
+              <div className="w-full md:w-2/3 lg:h-[60vh] sm:h-[68vh]">
                 <div className="pb-6">
                   <div className="font-semibold text-2xl pb-2">
                     Reserve your spot
@@ -239,7 +239,7 @@ const PaketTourC = () => {
                     </div> */}
 
                     <div className="pt-6">
-                      <button className="bg-[#FF9900] duration-300 transition-all px-8 py-3 w-full rounded-xl font-semibold text-[#171717] hover:opacity-75">
+                      <button className="bg-[#FF9900] duration-300 transition-all px-8 py-3 w-full rounded-xl font-semibold text-white hover:opacity-75">
                         Reserve Now
                       </button>
                     </div>
